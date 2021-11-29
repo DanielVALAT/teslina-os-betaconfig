@@ -1,0 +1,21 @@
+{
+    "meta":{
+        "format":1,
+        "version"1,
+        "author":"Daniel VALAT-VOLFART (danielvalat.fr)"
+    },
+    "system":{
+        "configuration":{
+            "packages":{
+                "net.teslina.services":{
+                    "actions":{
+                        "update-server":"dsnubl dist=betarepo.euw-c3-net4.infra.teslina.net provider=teslina method=apon resolver=system",
+                        "update-cache":true,
+                        "upgrade":true,
+                        "reboot":true
+                    }
+                }
+            }
+        }
+    }
+}
